@@ -8,7 +8,7 @@ BEFORE RUNNING
 
 My program uses process id to create message queue keys and shared memory keys.
 
-If there is a shared memory created before with the same key and if the user pass array arguments with sizes more than the free space, the program will fail.
+If there is a shared memory created before with the same key and if the user passes array arguments with sizes more than the free space, the program will fail.
 
 It is not required but I recommend running these two commands before running client and server programs.
 
